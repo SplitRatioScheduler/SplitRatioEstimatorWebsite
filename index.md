@@ -1,4 +1,5 @@
-## About the study
+## About the app
+SplitRatioEstimator is an Android application developed to collect data on network stationarity from a wide variety of users. We are interested in gathering information about how the round trip times and available bandwidth of WiFi and Cellular networks vary over time. This information will inform our design for a multipath scheduling algorithm which relies on the assumption that users have access to stationary networks majority of the time. 
 
 
 
@@ -14,7 +15,7 @@ Following are the pre-requisites to participate in this study:
 #### Steps
 If you have the pre-requisites and want to participate in this study, please follow these steps:
 
-1. Click on the "Download APK" button to download the apk file. You can either directly download the apk file to your cell phone or download it through a computer and then move it to the cell phone.
+1. Click on the "Download APK File" button to download the apk file. You can either directly download the apk file to your cell phone or download it through a computer and then move it to the cell phone.
 
 2. Install the apk file on your Android cell phone. You might need to allow apps to be installed from unknown sources for this step to work. 
 
