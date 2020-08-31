@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## SplitRatio Scheduling Algorithm
 
-You can use the [editor on GitHub](https://github.com/zaf6862/SplitRatioEstimatorWebsite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## User Study
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## App Workflow
+The app makes periodic measurements at a frequency communicated to the app through a server. Each measurement comprises of several tasks done in an order. They are listed as follows.
 
-```markdown
-Syntax highlighted code block
+1. Download files of size ranging from 4KB to 8MB in increments of power of 2 (2<sup>12</sup>,2<sup>13</sup>, …, 2<sup>23</sup> bytes) on WiFi. Download logs for each file size are stored locally. Each download log tells how many bytes were received after how much time during the download of a specific size file. 
 
-# Header 1
-## Header 2
-### Header 3
+2. Download files of size ranging from 4KB to 8MB in increments of power of 2 (2<sup>12</sup>,2<sup>13</sup>, …, 2<sup>23</sup> bytes) on Cellular network. Similar to step 1, download logs are stored locally.
 
-- Bulleted
-- List
+3. Compute Split Ratios for all the file sizes through download logs recorded in step 1 and 2. 
 
-1. Numbered
-2. List
+4. Estimate available bandwidth on WiFi by downloading a 4MB file three times and computing the mean and standard deviation of the three measurements.
 
-**Bold** and _Italic_ and `Code` text
+5. Estimate round-trip time on WiFi by downloading a 1KB file.
 
-[Link](url) and ![Image](src)
-```
+6. Estimate available bandwidth on Cellular network by downloading a 4MB file three times and computing the mean and standard deviation of the three measurements.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+7. Estimate round-trip time on Cellular network by downloading 1KB file.
 
-### Jekyll Themes
+8. Input the estimated bandwidth and round-trip times to the model and predict split ratios. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zaf6862/SplitRatioEstimatorWebsite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+9. Download files of size 4KB to 8MB using the measured and predicted split ratios. Record the download times locally. 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Privacy Policy
+To understand what data we collect and how we use it, please refer to the [Privacy Policy](https://drive.google.com/file/d/1z593pqp7ac1Vk8Sj5OzfaPgq-fXXMYbn/view?usp=sharing)
+
