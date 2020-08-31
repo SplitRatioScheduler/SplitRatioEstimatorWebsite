@@ -1,5 +1,5 @@
 ## About the app
-SplitRatioEstimator is an Android application developed to collect data on network stationarity from a wide variety of users. We are interested in gathering information about how the round trip times and available bandwidth of WiFi and Cellular networks vary over time. This information will inform our design for a multipath scheduling algorithm which relies on the assumption that users have access to stationary networks majority of the time. 
+SplitRatioEstimator is an Android application developed to collect data on network stationarity from a wide variety of users. We are interested in gathering information about how the round trip times and available bandwidth of WiFi and Cellular networks vary over time. This information will inform our design for a multipath scheduling algorithm which relies on the assumption that users have access to stationary networks most of the time. 
 
 
 
