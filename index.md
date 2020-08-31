@@ -43,5 +43,5 @@ The app makes periodic measurements at a frequency communicated to the app throu
 
 
 ## Privacy Policy
-To understand what data we collect and how we use it, please refer to the [Privacy Policy](https://drive.google.com/file/d/1z593pqp7ac1Vk8Sj5OzfaPgq-fXXMYbn/view?usp=sharing)
+To understand what data we collect and how we use it, please refer to the [Privacy Policy](https://drive.google.com/file/d/1z593pqp7ac1Vk8Sj5OzfaPgq-fXXMYbn/view?usp=sharing).
 
